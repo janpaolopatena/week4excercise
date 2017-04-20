@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height: 100px;
+  width: 45%;
+}
+.red {
+  background-color: red;
+}
+.purple {
+  background-color: purple;
+}
+.blue {
+  background-color: blue;
+}
+.silver {
+  background-color: silver;
+}
+@media (max-width:600px) {
+
+  .purple, .blue {
+    display: none;
+  }
+
+}
+@media (min-width:1000px) {
+
+  .red, .purple, .blue, .silver {
+    width: 100%;
+  }
+}
